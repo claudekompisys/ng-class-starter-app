@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    .app-container {
+        margin: 0 auto;
+    }
+
+    @media (min-width: 768px) { 
+        .app-container {
+            margin: 0 auto;
+            width: 900px;
+        }
+    }
+
+    @media (max-width: 768px) { 
+        .app-container {
+            margin: 0 auto;
+            width: 1000px;
+        }
+    }
+
+    @media (min-width: 992px) { 
+        .app-container {
+            margin: 0 auto;
+            width: 1000px;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+        .app-container {
+            margin: 0 auto;
+            width: 1000px;
+        }
+    }
+}
